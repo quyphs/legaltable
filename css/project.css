@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+@media only screen and (max-width: 480px) {
+	
+	* {
+		font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+		font-size: 13.5px;
+	}
+	
+/*
+	#managementTools {
+		text-align: right;
+	}
+	
+	.tools {
+		text-decoration: none;
+		border: 1px solid #1199B5;
+		background-color:#00646C;
+		color: #E9E7E7;
+	}
+	
+	.deteleThisProject {
+		position: absolute;
+		right: 5px;
+		bottom: -3px;
+		text-decoration: none;
+	}
+	
+	#projectSetContainer .projectContainer:first-child .projectHeader .upProjectBtn, #projectSetContainer .projectContainer:last-child .projectHeader .downProjectBtn {
+		display: none;
+	}
+
+	.topicSetContainer .topicContainer:first-child .topicHeading .upTopicBtn, .topicSetContainer .topicContainer:last-child .topicHeading .downTopicBtn {
+		display: none;
+	}
+		
+	.upProjectBtn {
+		position: absolute;
+		top:-10px;
+		right: 0px;
+	}
+	
+	.downProjectBtn {
+		position: absolute;
+		bottom: -10px;
+		right: 0px;
+	}
+	
+	.upTopicBtn, .downTopicBtn {
+		position: absolute;
+		right: 15px;
+	}
+
+	.navOrgBtn {
+		text-decoration: none;
+	}
+	
+	.linkToTopic {
+		color: inherit;
+		text-decoration: none;
+	}
+	
+	.utilityTools {
+		font-size: 11px;
+	}
+	
+	.addTagBtn, .addToMyProjects, .deleteFromMyProjects {
+		display: none;
+	}
+*/
+
+	.projectContainer {
+		margin-top: 3px;
+		margin-bottom: 10px;
+	}
+	
+	.projectHeader {
+		border: solid 2px #b9c8a7;
+		position: relative;
+		background-color: #DDD1D1;
+	}
+	
+	.topicsListingContainer  {
+		position: relative;
+		left: 7px;
+		width: 98%;
+		min-height: 5px;
+	}
+
+	.topicContainer {
+		margin-top: 3px;
+		margin-bottom: 3px;
+		border: solid 2px #b9c8a7;
+	}
+	
+	.topicHeading {
+		margin-top: 1px;
+		margin-bottom: 1px;
+		border: solid 1px #b9c8a7;
+		position: relative;
+	}
+		
+	.topicDetails {
+		position: relative;
+		right: 5%;
+		text-align: right;
+		font-size: 12px;
+		margin-top: 1px;
+		margin-bottom: 1px;
+	}
+	
+	.topicTagsContainer {
+		text-align: right;
+		margin-top: 1px;
+		margin-bottom: 1px;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	
+}
+
+@media only screen and (min-width: 769px) {
+	
+}
